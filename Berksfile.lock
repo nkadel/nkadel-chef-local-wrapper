@@ -1,0 +1,19 @@
+DEPENDENCIES
+  emacs
+  firewalld
+  hosts
+    git: https://github.com/nkadel-skyhook/nkadel-chef-hosts
+    revision: e248e7be637a731187a8d7a3297b467b793203dc
+  local_firewalld
+    path: cookbooks-local/local_firewalld
+  mysql
+  tomcat
+
+GRAPH
+  emacs (0.10.0)
+  firewalld (1.1.5)
+  hosts (0.1.3)
+  local_firewalld (0.1.0)
+    firewalld (>= 0.0.0)
+  mysql (8.5.1)
+  tomcat (3.0.0)
