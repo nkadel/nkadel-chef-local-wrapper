@@ -5,3 +5,4 @@ berks-cookbooks/
 chef_guid
 cookbooks/
 nodes/
+local-mode-cache/

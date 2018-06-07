@@ -3,7 +3,7 @@
 #
 
 nodes-local/ contains source controlled node configurations, suitable for use by
-chef-solo or chef-zero.
+"chef-client --local-mode" or chef-zero.
 
 nodes/ contains genderated node configurations crewated by chef-solo
 from nodes-local/ files. These are dynamically updated by kernel
