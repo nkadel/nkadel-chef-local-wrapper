@@ -8,3 +8,6 @@ source "https://supermarket.getchef.com"
 
 # Locally source controlled cookbook, if needed
 #cookbook "apache2", path: "cookbooks-local/apache2"
+
+# Useful placeholder cookbook, just to enforce creation of beroks-cookbooks
+cookbook "emacs"
