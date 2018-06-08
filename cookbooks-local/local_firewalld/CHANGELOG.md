@@ -6,6 +6,8 @@ This file is used to list changes made in each version of the local_firewalld co
 
 Initial release.
 
-- change 0
-- change 1
+# 0.1.1
+
+Set licensing and metadata correctly.
+Activate chef_server recipe, to open firewalls for Chef server
 

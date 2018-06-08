@@ -11,3 +11,15 @@ source "https://supermarket.getchef.com"
 
 # Useful placeholder cookbook, just to enforce creation of beroks-cookbooks
 cookbook "emacs"
+
+# Popular system cookbooks
+cookbook "ntp"
+cookbook "postfix"
+
+# Popular cloud deployment cookbook, installs awscli
+# *Requires pip and EPE:, do not use on secured RHEL hosts!!!!
+#cookbook "cloudcli
+
+
+# Sambple of wrapper cookgook
+cookbook "local_firewalld", path: "cookbooks-local/local_firewalld"

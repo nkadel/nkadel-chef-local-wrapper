@@ -1,5 +1,14 @@
 DEPENDENCIES
   emacs
+  local_firewalld
+    path: cookbooks-local/local_firewalld
+  ntp
+  postfix
 
 GRAPH
   emacs (0.10.0)
+  firewalld (1.1.5)
+  local_firewalld (0.1.1)
+    firewalld (>= 0.0.0)
+  ntp (3.5.6)
+  postfix (5.3.0)
