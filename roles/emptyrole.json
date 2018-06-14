@@ -4,7 +4,7 @@
   "description" : "Empty role",
   "env_run_lists" : {  },
   "json_class" : "Chef::Role",
-  "name" : "empty",
+  "name" : "emptyrole",
   "override_attributes" : {  },
   "run_list" : [  ]
 }
