@@ -1,8 +1,9 @@
 *#*
 *.out
 *~
+backups/
 berks-cookbooks/
 chef_guid
 cookbooks/
-nodes/
 local-mode-cache/
+nodes/

@@ -13,8 +13,12 @@ source "https://supermarket.getchef.com"
 cookbook "emacs"
 
 # Popular system cookbooks
+cookbook "cron"
 cookbook "ntp"
+cookbook "pam"
 cookbook "postfix"
+cookbook "openssh"
+cookbook "sudo"
 
 # Popular cloud deployment cookbook, installs awscli
 # *Requires pip and EPE:, do not use on secured RHEL hosts!!!!
