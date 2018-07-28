@@ -4,6 +4,7 @@
 backups/
 berks-cookbooks/
 chef_guid
+cookbooks
 cookbooks/
 encrypted-data-bag-secret
 local-mode-cache/
