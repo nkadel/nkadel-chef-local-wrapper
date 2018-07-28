@@ -1,0 +1,8 @@
+# Deploy in @@@PWD@@@, and link to /etc/chef-local.rb
+# for chef-local to work by default
+cookbook_path	'@@@PWD@@@/berks-cookbooks'
+role_path	'@@@PWD@@@/roles'
+data_bag_path	'@@@PWD@@@/data_bags'
+environment_path	'@@@PWD@@@/environments'
+# Deploy via separate channel, do not keep in git repo
+encrypted_data_bag_secret	'@@@PWD@@@/encrypted_data_bag_secret'
